@@ -23,6 +23,7 @@ Agenții JADE utilizați:
  * **ControllerAgent**: Gestionează ciclul de viață al agenților Finder (pornire/oprire centralizată).
  * **FinderAgent**: Agenți specializați care:
    * scanează directoare specifice în mod recursiv și raportează rezultatul;
+   * caută fișiere exclusiv pe baza numelui complet (inclusiv extensia);
    * pot opri căutarea la cerere (STOP/TERMINATE);
    * pot copia fișierul găsit într-un folder de extragere.
  * **PythonBridgeAgent**: Acționează ca un gateway între protocolul ACL JADE și API-ul REST al serviciului Python.
